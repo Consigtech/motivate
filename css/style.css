@@ -1,0 +1,119 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-image: url('../images/pexels-johannes-plenio-1103970.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 20px;
+
+}
+
+.container{
+    background-color: rgba(5, 124, 123, 0.5);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 0 6px 6px 6px rgba(0, 0, 0, 0.3);
+    padding: 50px 40px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 100%;
+    width: 600px;
+    
+}
+.qouteBody{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+header{
+  margin-bottom: 50px;
+}
+
+img{
+  width : 100px;
+  height: 100px;
+}
+
+.txt{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.no{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    letter-spacing: 2px;
+    color: wheat;
+}
+
+#author{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    font-style: italic;
+    text-align: right;
+}
+
+#quote{
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    margin: 40px auto; 
+    max-width: 600px;
+    font-weight: bold;
+}
+
+.btn{
+    background-color: darkgray;
+    padding: 5px 10px;
+    border: 0;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3), 0 6px 6px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 7px;
+    font-size: 20px;
+    cursor: pointer;
+    color: floralwhite;
+}
+
+.btn:active{
+    transform: scale(0.95);
+}
+
+.btn:focus{
+    outline: 0;
+}
+footer{
+  margin-top: auto;
+}
+
+p{
+  color: ghostwhite;
+  text-align: center;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+@media(max-width:720px){
+  body{
+    padding: 0 100px 0 100px;
+  }
+  .joke{
+    font-size: 15px;
+    line-height: 15px;
+  }
+  .btn{
+    font-size: 15px;
+  }
+  img{
+    width: 100px;
+    height: 100px;
+    margin-left: -60px;
+  }
+ .container{
+      padding: 20px 10px;
+  }
+}
